@@ -13,6 +13,8 @@ let users = [
    Helper Functions (reusable)
 ------------------------------*/
 
+
+
 // Validate user payload
 function validateUser({ id, name, email }) {
     return id && name && email;
