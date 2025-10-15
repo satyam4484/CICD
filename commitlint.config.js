@@ -1,8 +1,8 @@
 module.exports = {
     rules: {
-        'type-enum': [2, 'always', ['feat', 'deploy', 'test', 'merge', 'custom']],
-        'subject-empty': [1, 'never'], // subject cannot be empty
-        'type-empty': [1, 'never'],    // type cannot be empty
+        'type-enum': [2, 'always', ['feat', 'deploy', 'test', 'merge', 'custom','deployment']],
+        'subject-empty': [2, 'never'], // subject cannot be empty
+        'type-empty': [2, 'never'],    // type cannot be empty
     },
 };
 
